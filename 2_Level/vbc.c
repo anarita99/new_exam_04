@@ -53,7 +53,7 @@ int nbr(char *s, int *i)
 	int a = 0;
 	if (isdigit(s[*i]))
 	{
-		a = s[*i] - '0';
+		a = s[*i] - '0'; //converter para int
 		(*i)++;
 		return (a);
 	}
